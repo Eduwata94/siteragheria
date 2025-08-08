@@ -11,7 +11,7 @@ export default function ComoFuncionaSection() {
   ]
 
   return (
-    <section id="como-funciona" className="relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8">
+    <section id="como-funciona" className="relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8 bg-slate-900">
       {/* Background: dark gradient + color glow on the right + soft vignette */}
       <div className="absolute inset-0 -z-10 pointer-events-none">
         <div className="absolute inset-0 bg-[linear-gradient(180deg,#0b1020_0%,#151a2e_100%)]" />
