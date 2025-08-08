@@ -188,9 +188,7 @@ return (
       </span>
     </h1>
 
-    <p className="mt-5 text-lg max-w-2xl mx-auto lg:mx-0 text-white">
-      Agentes de IA, integrações e automações sob medida para escalar seu atendimento, vendas e operação — 24/7.
-    </p>
+    
 
     {/* CTAs */}
     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mt-8">
@@ -552,22 +550,14 @@ border-bottom: 1px solid rgba(124,58,237,0.35);
 
 {/* Por que nos escolher */}
 <section className="py-12 px-4 sm:px-6 lg:px-8">
-<div className="max-w-5xl mx-auto">
-<h2 className="text-3xl font-bold text-[#003c78] mb-6">Por que nos escolher</h2>
-<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-  {[
-    "A IA é nossa ferramenta. O resultado é o que importa.",
-    "Executamos junto. Pensamos junto. Crescemos junto.",
-    "Seu gargalo não é técnico — é estratégico. A gente resolve.",
-  ].map((text, idx) => (
-    <Card key={idx} className="bg-white/70 border-white/40 rounded-2xl hover:shadow-lg transition">
-      <CardContent className="p-6">
-        <p className="text-gray-800">{text}</p>
-      </CardContent>
-    </Card>
-  ))}
-</div>
-</div>
+<div className="max-w-5xl mx-auto text-left">
+<h2 className="text-3xl font-bold text-[#003c78] mb-6 text-left">Por que nos escolher</h2>
+<p className="text-xl text-gray-600 font-bold">- IA não é mágica. É método. E nós dominamos o processo.</p>
+<p className="text-xl text-gray-600 font-bold">- Automatizar é fácil. Escalar com inteligência é o diferencial. </p>
+<p className="text-xl text-gray-600 font-bold">- Menos promessas. Mais entregas. </p>
+<p className="text-xl text-gray-600 font-bold">- A tecnologia trabalha. Você colhe o resultado. </p>
+<p className="text-xl text-gray-600 font-bold">- Seu desafio não é a ferramenta. É transformar dados em decisão.</p>
+
 </section>
 
 {/* Testimonials (mantidos) */}
